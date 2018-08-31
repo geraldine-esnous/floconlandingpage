@@ -1,0 +1,17 @@
+.container404 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
+
+.body404 {
+  font-family: NeutraText, arial, helvetica;
+  background-color: #FCF3EB;
+  text-align: center;
+  font-size: 17px;
+  line-height: 23px; }
+
+.link404 {
+  text-decoration: none;
+  color: #4FC2B1;
+  cursor: pointer; }

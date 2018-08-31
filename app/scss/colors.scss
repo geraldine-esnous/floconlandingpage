@@ -1,0 +1,367 @@
+/* Charte couleurs */
+
+
+$bleuFlocon: #4FC2B1;
+$tealBg: #95DAD0;
+$brownH1: #AC7A47;
+$brownSuperfood: #C78944;
+$whiteBg: #FFFFFF;
+$yellowBg: #FCF3EB;
+$romarin: #57B75F;
+$poivreNoir: #A09E9E;
+$curry: #FBB231;
+$fenouil: #B8D137;
+$seldeguerande: #164E87;
+$white: #FFFFFF;
+$bleufonce: #2C8C7C;
+
+.bleuFlocon {
+  background: $bleuFlocon !important;
+  color: #fff !important;
+}
+.bleuFlocon svg {
+  fill: #fff !important;
+}
+
+.bleuFlocon-bg {
+  background: $bleuFlocon !important;
+}
+
+.text-bleuFlocon {
+  color: $bleuFlocon !important;
+}
+.text-bleuFlocon.button svg {
+  fill: $bleuFlocon !important;
+}
+
+.stroke.button.bleuFlocon {
+  color: $bleuFlocon !important;
+  border-color: $bleuFlocon !important;
+}
+.stroke.button.bleuFlocon svg {
+  fill: $bleuFlocon !important;
+}
+.borderBleuFlocon {
+  border-color: $bleuFlocon;
+}
+
+/* -- */
+
+.tealBg {
+  background: $tealBg !important;
+  color: #fff !important;
+}
+
+.tealBg-bg {
+  background: $tealBg !important;
+}
+
+.tealBg svg {
+  fill: #fff !important;
+}
+
+.text-tealBg {
+  color: $tealBg !important;
+}
+.text-tealBg.button svg {
+  fill: $tealBg !important;
+}
+
+.stroke.button.tealBg {
+  color: $tealBg !important;
+  border-color: $tealBg !important;
+}
+.stroke.button.tealBg svg {
+  fill: $tealBg !important;
+}
+.borderTealBg {
+  border-color: $tealBg;
+}
+
+/* -- */
+
+.brownH1 {
+  background: $brownH1 !important;
+  color: #fff !important;
+}
+.brownH1 svg {
+  fill: #fff !important;
+}
+
+.text-brownH1 {
+  color: $brownH1 !important;
+}
+.text-brownH1.button svg {
+  fill: $brownH1 !important;
+}
+
+.stroke.button.brownH1 {
+  color: $brownH1 !important;
+  border-color: $brownH1 !important;
+}
+.stroke.button.brownH1 svg {
+  fill: $brownH1 !important;
+}
+.borderBrownH1 {
+  border-color: $brownH1;
+}
+/* -- */
+
+.brownSuperfood {
+  background: $brownSuperfood !important;
+  color: #fff !important;
+}
+.brownSuperfood svg {
+  fill: #fff !important;
+}
+
+.text-brownSuperfood {
+  color: $brownSuperfood !important;
+}
+.text-brownSuperfood.button svg {
+  fill: $brownSuperfood !important;
+}
+
+.stroke.button.brownSuperfood {
+  color: $brownSuperfood !important;
+  border-color: $brownSuperfood !important;
+}
+.stroke.button.brownSuperfood svg {
+  fill: $brownSuperfood !important;
+}
+.borderBrownSuperfood {
+  border-color: $brownSuperfood;
+}
+/* -- */
+
+.whiteBg {
+  background: $whiteBg !important;
+  color: #fff !important;
+}
+
+.whiteBg-bg {
+  background: $whiteBg !important;
+}
+
+.whiteBg svg {
+  fill: #fff !important;
+}
+
+.text.whiteBg {
+  color: $whiteBg !important;
+}
+.text.whiteBg.button svg {
+  fill: $whiteBg !important;
+}
+
+.stroke.button.whiteBg {
+  color: $whiteBg !important;
+  border-color: $whiteBg !important;
+}
+.stroke.button.whiteBg svg {
+  fill: $whiteBg !important;
+}
+.borderWhiteBg {
+  border-color: $whiteBg;
+}
+/* -- */
+
+.yellowBg {
+  background: $yellowBg !important;
+  color: #fff !important;
+}
+
+.yellowBg-bg {
+  background: $yellowBg !important;
+}
+
+.yellowBg svg {
+  fill: #fff !important;
+}
+
+.text-yellowBg {
+  color: $yellowBg !important;
+}
+.text-yellowBg.button svg {
+  fill: $yellowBg !important;
+}
+
+.stroke.button.yellowBg {
+  color: $yellowBg !important;
+  border-color: $yellowBg !important;
+}
+.stroke.button.yellowBg svg {
+  fill: $yellowBg !important;
+}
+.borderYellowBg {
+  border-color: $yellowBg;
+}
+/* -- */
+
+.romarin {
+  background: $romarin !important;
+  color: #fff !important;
+}
+.romarin svg {
+  fill: #fff !important;
+}
+
+.text-romarin {
+  color: $romarin !important;
+}
+.text-romarin.button svg {
+  fill: $romarin !important;
+}
+
+.stroke.button.romarin {
+  color: $romarin !important;
+  border-color: $romarin !important;
+}
+.stroke.button.romarin svg {
+  fill: $romarin !important;
+}
+.borderRomarin {
+  border-color: $romarin;
+}
+/* -- */
+
+.poivreNoir {
+  background: $poivreNoir !important;
+  color: #fff !important;
+}
+.poivreNoir svg {
+  fill: #fff !important;
+}
+
+.text-poivreNoir {
+  color: $poivreNoir !important;
+}
+.text-poivreNoir.button svg {
+  fill: $poivreNoir !important;
+}
+
+.stroke.button.poivreNoir {
+  color: $poivreNoir !important;
+  border-color: $poivreNoir !important;
+}
+.stroke.button.poivreNoir svg {
+  fill: $poivreNoir !important;
+}
+.borderPoivreNoir {
+  border-color: $poivreNoir;
+}
+/* -- */
+
+.curry {
+  background: $curry !important;
+  color: #fff !important;
+}
+.curry svg {
+  fill: #fff !important;
+}
+
+.text-curry {
+  color: $curry !important;
+}
+.text-curry.button svg {
+  fill: $curry !important;
+}
+
+.stroke.button.curry {
+  color: $curry !important;
+  border-color: $curry !important;
+}
+.stroke.button.curry svg {
+  fill: $curry !important;
+}
+.borderCurry {
+  border-color: $curry;
+}
+/* -- */
+
+.fenouil {
+  background: $fenouil !important;
+  color: #fff !important;
+}
+.fenouil svg {
+  fill: #fff !important;
+}
+
+.text-fenouil {
+  color: $fenouil !important;
+}
+.text-fenouil.button svg {
+  fill: $fenouil !important;
+}
+
+.stroke.button.fenouil {
+  color: $fenouil !important;
+  border-color: $fenouil !important;
+}
+.stroke.button.fenouil svg {
+  fill: $fenouil !important;
+}
+.borderFenouil {
+  border-color: $fenouil;
+}
+/* -- */
+
+.seldeguerande {
+  background: $seldeguerande !important;
+  color: #fff !important;
+}
+.seldeguerande svg {
+  fill: #fff !important;
+}
+
+.text-seldeguerande {
+  color: $seldeguerande !important;
+}
+.text-seldeguerande.button svg {
+  fill: $seldeguerande !important;
+}
+
+.stroke.button.seldeguerande {
+  color: $seldeguerande !important;
+  border-color: $seldeguerande !important;
+}
+.stroke.button.seldeguerande svg {
+  fill: $seldeguerande !important;
+}
+.borderseldeguerande {
+  border-color: $seldeguerande;
+}
+
+/* -- */
+
+.white {
+  background: $white !important;
+  color: #fff !important;
+}
+.white svg {
+  fill: #fff !important;
+}
+
+.text-white {
+  color: $white !important;
+  text-shadow: 0 0 0.05em $white;
+}
+
+.no-shadow {
+  text-shadow: 0;
+}
+
+.text-white.button svg {
+  fill: $white !important;
+}
+
+.stroke.button.white {
+  color: $white !important;
+  border-color: $white !important;
+}
+.stroke.button.white svg {
+  fill: $white !important;
+}
+.borderwhite {
+  border-color: $white;
+}

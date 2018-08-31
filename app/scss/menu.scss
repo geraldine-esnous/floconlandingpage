@@ -1,0 +1,196 @@
+@import 'colors';
+
+/* Navigation bar classes */
+
+// Menu
+
+.floconMenu {
+	background-color: transparent;
+	border: none;
+	
+	&.no-visible {
+		opacity: 0;
+	}
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $bleuFlocon;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-default .navbar-collapse {
+	border: none !important;
+	background-color: $bleuFlocon;
+}
+
+@media (min-width: 767px) {
+	#navBg {
+		background-image: url("../assets/custom/bg_flocon.png");
+		//background-color: transparent;
+		background-size: 230px;
+	}
+}
+
+#menu li {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#menu li.active {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+	border: none;
+}
+
+#menu li a,
+#menu li.active a {
+	background-color: transparent;
+	color: transparent;
+
+	&:hover, &:focus {
+		background-color: transparent;
+		color: $bleuFlocon;
+	}
+}
+
+@media (min-width: 767px) {
+	#menu {
+		li a, li.active a {
+			padding-bottom: 6px;
+		}		
+		li:not(#switch-locale) a {
+			background-color: transparent;
+			border: 1px solid transparent;
+			border-radius: 12px;
+			text-shadow: 0 0 1px $yellowBg;
+			&:hover, &:focus {
+				background-color: transparent;
+				color: $bleuFlocon;
+				border: 0px solid $bleufonce;
+			}
+		}
+
+	}
+}
+
+@media (min-width: 767px) {
+	#menu li a, #menu li.active a {
+		font-family: IntroCondRegular;
+		font-size: 0.7rem;
+		color: $bleufonce;
+	}
+
+	#menu li {
+		img {
+			position: absolute;
+			top: 6px;
+			left: 0;
+			width: 29px;
+		}
+	}
+}
+
+#menu li,
+#menu li.active{
+	background-color: rgba(0, 0, 0, 0);
+	&:hover, &:focus {
+		background-color: rgba(0, 0, 0, 0);
+		background: transparent;
+	}
+}
+
+@media (min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    .floconMenu {
+    	border: none;
+    }
+    .navbar-default .navbar-collapse {
+	border: none !important;
+	background-color: rgba(255, 255, 255, 0);
+	}
+}
+#menu {
+	z-index: 6000;
+	opacity: 0;
+	@media (max-width: 767px) {
+		#switch-locale {
+			position: absolute;
+			bottom: 65px;
+			right: 0;
+			display: inline-flex;
+			font-size: 0.8em;
+			li {
+				cursor: pointer;
+			}
+		}
+		.navbar-collapse {
+			&.in {
+				right: 0%;
+			}
+			&.collapsing {
+				transition: right 0.5s cubic-bezier(.73,.44,.33,.64);
+			}
+			width: 70%;
+			max-height: 100vh !important;
+			height: 100vh !important;
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			right: -70%;
+			text-align: right;
+			padding-right: 25px;
+			display: inline-table;
+			transition: right 0.5s cubic-bezier(.73,.44,.33,.64);
+
+			h1 span {
+				&:hover {
+					opacity: 1;
+					cursor: pointer;
+				}
+
+				float: right;
+				line-height: 2;
+				font-size: 1.75rem;
+				opacity: 0.5;
+				display: block;
+				width: 10%;
+				text-align: center;
+			}
+
+			li:not(.hidden-xs) {
+				display: block !important;
+				float: right;
+				width: 50%;
+				cursor: pointer;
+				text-align: right;
+
+				a {
+					color: white;
+					font-weight: bold;
+					font-size: 1.5em;
+				}
+				a:hover {
+					opacity: 0.5;
+				}
+			}
+		}
+	}	
+}

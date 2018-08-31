@@ -1,0 +1,57 @@
+/* Importation polices */
+@font-face {
+  font-family: Rust;
+  src: url("../assets/fonts/RustH1-Base.woff") format("woff"), url("../assets/fonts/RustH1-Base.ttf") format("truetype"); }
+
+@font-face {
+  font-family: NeutraTextItalic;
+  src: url("../assets/fonts/NeutraTextTF-BookItalic.woff") format("woff"), url("../assets/fonts/NeutraTextTF-BookItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: NeutraTextBoldItalic;
+  src: url("../assets/fonts/NeutraTextTF-BoldItalic.woff") format("woff"), url("../assets/fonts/NeutraTextTF-BoldItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: NeutraTextBold;
+  src: url("../assets/fonts/NeutraText-Bold.woff") format("woff"), url("../assets/fonts/NeutraText-BoldI.ttf") format("truetype"); }
+
+@font-face {
+  font-family: NeutraText;
+  src: url("../assets/fonts/NeutraText-BookAlt.woff") format("woff"), url("../assets/fonts/NeutraText-BookAlt.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IntroCondBoldAlt;
+  src: url("../assets/fonts/IntroCondBoldAlt.woff") format("woff"), url("../assets/fonts/IntroCondBoldAlt.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IntroCondBold;
+  src: url("../assets/fonts/IntroCondBold.woff") format("woff"), url("../assets/fonts/IntroCondBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IntroCondRegular;
+  src: url("../assets/fonts/IntroCondRegular.woff") format("woff"), url("../assets/fonts/IntroCondRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IntroCondSemiBoldAlt;
+  src: url("../assets/fonts/IntroCondSemiBoldAlt.woff") format("woff"), url("../assets/fonts/IntroCondSemiBoldAlt.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IntroScriptR;
+  src: url("../assets/fonts/IntroScriptR-Base.woff") format("woff"), url("../assets/fonts/IntroScriptR-Base.ttf") format("truetype"); }
+
+/* Balises standards */
+html {
+  font-family: NeutraText, sans-serif; }
+
+h1 {
+  font-family: Rust, sans-serif;
+  color: #AC7A47; }
+
+h2 {
+  font-family: Rust, sans-serif; }
+
+h3 {
+  font-family: Rust, sans-serif; }
+
+.rust {
+  font-family: Rust, sans-serif; }

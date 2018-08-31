@@ -1,0 +1,23 @@
+{
+  "name": "flocon",
+  "version": "0.0.1",
+  "description": "",
+  "authors": [
+    "Thanh-Quy"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "responsive-bootstrap-toolkit": "responsive-toolkit#^2.6.3",
+    "animate.css": "^3.5.2",
+    "jquery.i18n": "^1.0.4"
+  }
+}

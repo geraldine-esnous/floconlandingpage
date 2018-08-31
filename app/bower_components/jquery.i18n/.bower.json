@@ -1,0 +1,15 @@
+{
+  "name": "jquery.i18n",
+  "homepage": "https://github.com/wikimedia/jquery.i18n",
+  "version": "1.0.4",
+  "_release": "1.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.4",
+    "commit": "194901ea616ef389cb2df012d35d7e7010f0e385"
+  },
+  "_source": "https://github.com/wikimedia/jquery.i18n.git",
+  "_target": "^1.0.4",
+  "_originalSource": "jquery.i18n",
+  "_direct": true
+}
